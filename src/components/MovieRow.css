@@ -31,7 +31,7 @@
   transform: scale(1);
 }
 
-.movieRow--left, 
+.movieRow--left,
 .movieRow--rigth {
   font-size: 50px;
   position: absolute;
@@ -45,18 +45,25 @@
   overflow: hidden;
   cursor: pointer;
   opacity: 0;
-  transition: all ease .5s;
+  transition: all ease 0.5s;
 }
 
 .movieRow--left {
   left: 0;
 }
 
-.movieRow--rigth{
+.movieRow--rigth {
   right: 0;
 }
 
 .movieRow:hover .movieRow--left,
 .movieRow:hover .movieRow--rigth {
   opacity: 1;
+}
+
+@media (max-width: 760px) {
+  .movieRow--left,
+  .movieRow--rigth {
+    opacity: 1;
+  }
 }
