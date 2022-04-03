@@ -30,10 +30,10 @@ const App = () => {
 
   React.useEffect(() => {
     const scrollListener = () => {
-      if(window.scrollY > 10) {
-        setBlackHeader(true)
+      if (window.scrollY > 10) {
+        setBlackHeader(true);
       } else {
-        setBlackHeader(false)
+        setBlackHeader(false);
       }
     };
 
@@ -56,6 +56,27 @@ const App = () => {
           </div>
         ))}
       </section>
+
+      <footer>
+        Feito com{" "}
+        <span role="img" aria-label="coração">
+          ♥{" "}
+        </span>{" "}
+        <br />
+        Direitos de imagem para Netflix
+        <br />
+        Dados pego pelo site ThemovieDB.org
+      </footer>
+
+      {movieList.length <= 0 && (
+        <div className="loading">
+          <img
+            width="800px"
+            src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif"
+            alt="loading"
+          />
+        </div>
+      )}
     </div>
   );
 };
