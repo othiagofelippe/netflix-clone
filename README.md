@@ -1,7 +1,13 @@
 
-# Netflix Clone - React
+# Netflix Clone
 
-This project was created to learn how to use React and good development practices with the framework. The clone was made using JavaScript's fetch function, without any other libraries.
+A Netflix UI clone built with React, fetching data with the native `fetch` API. Built in April 2022 following [Bonieky Lacerda](https://www.youtube.com/@boniekylacerda)'s tutorial to practice React fundamentals.
+
+🔗 [Live demo](https://netflix-clone-plum-omega.vercel.app/)
+
+## Tech stack
+
+- React, JavaScript
 
 ### How to use:
 
