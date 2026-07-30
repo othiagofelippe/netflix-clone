@@ -1,7 +1,7 @@
 
 # Netflix Clone
 
-A Netflix UI clone built with React, fetching data with the native `fetch` API. Built in April 2022 following [Bonieky Lacerda](https://www.youtube.com/@boniekylacerda)'s tutorial to practice React fundamentals.
+A Netflix UI clone built with React, fetching data with the native `fetch` API. Built in April 2022 following [Bonieky Lacerda](https://www.youtube.com/@bonieky)'s tutorial to practice React fundamentals.
 
 🔗 [Live demo](https://netflix-clone-plum-omega.vercel.app/)
 
